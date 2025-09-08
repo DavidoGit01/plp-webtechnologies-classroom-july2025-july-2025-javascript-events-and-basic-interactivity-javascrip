@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎉 Welcome to My Interactive Page</h1>
+
+  <!-- Part 1: Event Handling -->
+  <button id="messageBtn">Click Me!</button>
+  <p id="message"></p>
+
+  <!-- Part 2: Interactive Features -->
+  <hr>
+  <h2>🌙 Light/Dark Mode Toggle</h2>
+  <button id="toggleMode">Switch Mode</button>
+
+  <h2>🎮 Counter Game</h2>
+  <button id="increaseBtn">Increase</button>
+  <button id="decreaseBtn">Decrease</button>
+  <p>Counter: <span id="counterValue">0</span></p>
+
+  <!-- Part 3: Form Validation -->
+  <hr>
+  <h2>📋 Registration Form</h2>
+  <form id="myForm">
+    <label>Name:</label>
+    <input type="text" id="name" required>
+    <p class="error" id="nameError"></p>
+
+    <label>Email:</label>
+    <input type="text" id="email" required>
+    <p class="error" id="emailError"></p>
+
+  <label>Password:</label>
+    <input type="password" id="password" required>
+    <p class="error" id="passwordError"></p>
+
+    <button type="submit">Submit</button>
+    <p id="formSuccess"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
